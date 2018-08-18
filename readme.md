@@ -16,9 +16,8 @@ $ composer require alive2212/laravelcryptservice
 ```
 
 ``` bash
-php artisan vendor:publish --tag laravel-parsian-payment.config
-php artisan vendor:publish --tag laravel-parsian-payment.lang
-php artisan vendor:publish --tag laravel-parsian-payment.job
+php artisan vendor:publish --tag laravel-crypt-service.config
+php artisan vendor:publish --tag laravel-crypt-service.lang
 php artisan crypt:init
 ```
 ## Usage
