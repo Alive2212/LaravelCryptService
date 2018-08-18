@@ -1,0 +1,41 @@
+{
+    "name": "alive2212/laravelcryptservice",
+    "description": ":description",
+    "license": "license",
+    "authors": [
+        {
+            "name": "author name",
+            "email": "author email",
+            "homepage": "author homepage"
+        }
+    ],
+    "homepage": "https://github.com/alive2212/laravelcryptservice",
+    "keywords": ["Laravel", "LaravelCryptService"],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0",
+        "orchestra/testbench": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alive2212\\LaravelCryptService\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Alive2212\\LaravelCryptService\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alive2212\\LaravelCryptService\\LaravelCryptServiceServiceProvider"
+            ],
+            "aliases": {
+                "LaravelCryptService": "Alive2212\\LaravelCryptService\\Facades\\LaravelCryptService"
+            }
+        }
+    }
+}
