@@ -1,12 +1,12 @@
 {
-    "name": "alive2212/laravelcryptservice",
-    "description": ":description",
-    "license": "license",
+    "name": "alive2212/laravel-crypt-service",
+    "description": "This is laravel crypt service for create rsa & .. key to crypt and decrypt",
+    "license": "MIT",
     "authors": [
         {
-            "name": "author name",
-            "email": "author email",
-            "homepage": "author homepage"
+            "name": "Babak Nodoust",
+            "email": "alive2212@yahoo.com",
+            "homepage": "http://babakn.com"
         }
     ],
     "homepage": "https://github.com/alive2212/laravelcryptservice",
