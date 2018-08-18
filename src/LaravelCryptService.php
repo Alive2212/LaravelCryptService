@@ -23,7 +23,7 @@ class LaravelCryptService
      */
     public function __construct()
     {
-        $this->loadKeys();
+        //
     }
 
     public function loadKeys()
