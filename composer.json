@@ -12,11 +12,11 @@
     "homepage": "https://github.com/alive2212/laravelcryptservice",
     "keywords": ["Laravel", "LaravelCryptService"],
     "require": {
-        "illuminate/support": "~5"
+        "illuminate/support": ">=5"
     },
     "require-dev": {
-        "phpunit/phpunit": "~6.0",
-        "orchestra/testbench": "~3.0"
+        "phpunit/phpunit": ">=6.0",
+        "orchestra/testbench": ">=3.0"
     },
     "autoload": {
         "psr-4": {
